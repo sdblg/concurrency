@@ -161,7 +161,6 @@ func TestFindMaxConcurrently_Race(t *testing.T) {
 	}
 	wg.Wait()
 }
-	
 
 func BenchmarkFindMaxConcurrently(b *testing.B) {
 	arr := make([]int, 1000000)
