@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "fibonacci-checker",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/examples/fibonacci-checker/main.go"
+        },
+        {
             "name": "large-array-access",
             "type": "go",
             "request": "launch",
